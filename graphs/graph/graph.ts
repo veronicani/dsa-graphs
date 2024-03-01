@@ -61,7 +61,7 @@ class GraphStr {
         n.adjacent.delete(node);
       }
     }
-    node.adjacent = new Set<GNodeStr>();
+    node.adjacent.clear();
     this.nodes.delete(node);
   }
 }
