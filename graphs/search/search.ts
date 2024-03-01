@@ -51,7 +51,7 @@ function iDfs(start: GNodeStr): string[] {
   return out;
 }
 
-/** Return array of nodes, in BFS order (recursive version)  */
+/** Return array of nodes, in BFS order */
 
 function bfs(start: GNodeStr): string[] {
 
