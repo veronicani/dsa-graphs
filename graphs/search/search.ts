@@ -15,7 +15,9 @@ function rDfs(
   result.push(start.value);
 
   for (const n of start.adjacent) {
-    if (!visited.has(n)) visited.add(n);
+    if (!visited.has(n)) {
+      visited.add(n);
+    }
     rDfs(n, result, visited);
   }
 
