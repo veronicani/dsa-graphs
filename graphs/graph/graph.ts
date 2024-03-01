@@ -41,7 +41,7 @@ class GraphStr {
 
   /** Add edges between v1 and v2. */
   addEdges(nodes: GNodeStr[]): void {
-    for (const [ v1, v2 ] of nodes) {
+    for (const [v1, v2] of nodes) {
       this.addEdge(v1, v2);
     }
   }
